@@ -1,5 +1,46 @@
-.page__header {
+.header {
+  width: 100%;
+  height: 569px;
+  background-image: url("/images/cover.jpg");
+  z-index: -1;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+
+}
+.burger-container {
+  padding: 5px 0 5px 5px;
+  position: fixed;
+  background-color: #0271bc;
+  width: 100%;
+}
+
+.burger {
+  border-radius: 3px;
+  height: 12px;
+}
+
+.header-words {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.title, .text-header {
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+.title {
+  font-size: 42px;
+  text-align: center;
+  margin: 300px 25px 0px 25px;
+}
+.text-header {
+  font-size: 16px;
+  display: inline;
+  width: 100%;
+  margin: 0 0 0 50px
+  
 }
