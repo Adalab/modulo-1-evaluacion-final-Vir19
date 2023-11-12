@@ -1,0 +1,46 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    height: 37.5rem;
+}
+
+.insomnia {
+    color: #8ccbea;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 3rem 0 0 1.5rem;
+}
+
+.window {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.4rem;
+    margin: 1rem 0 0 1.5rem;
+}
+
+.paragraph {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+    margin: 1.5rem 0 0 1.5rem;
+    line-height: 3rem;
+}
+
+.go-link { 
+    color: #f26002;
+    border: solid #f26002;
+    border-radius: 22px;
+    width: 7.6rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 2.5rem 0 0 1.5rem;
+}
+
+.go {
+    color: #f26002;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0.7rem;
+}
