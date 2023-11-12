@@ -1,8 +1,8 @@
-.header {
+/*.header {
   width: 100%;
   height: 56.9rem;
   background-image: url("/images/cover.jpg");
-  z-index: -1;
+  z-index: -1000;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -16,6 +16,7 @@
   background-color: #0271bc;
   width: 4.4rem;
   height: 4.4rem;
+  z-index: 1000;
 }
 
 .burger {
@@ -73,8 +74,98 @@
 .scroll-down {
   width: 2rem;
   height: 1.17rem;
-  margin: 0.5rem 0 0 1.2rem;
+  margin: 0.5rem 0 0 1.2rem; 
+} */
+
+// Variables
+$color-background: #0271bc;
+
+// Estilos del header
+.header {
+  width: 100%;
+  height: 56.9rem;
+  background-image: url("/images/cover.jpg");
+  z-index: -1000;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+
+  // Estilos del burger-container
+  .burger-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: $color-background;
+    width: 4.4rem;
+    height: 4.4rem;
+    z-index: 1000;
+
+    // Estilos del burger
+    .burger {
+      border-radius: 0.2rem;
+      width: 1.6rem;
+      height: 1.4rem;
+    }
+  }
+
+  // Estilos del header-words
+  .header-words {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+
+    // Estilos del anonymous, proxy y text-header
+    .anonymous, .proxy, .text-header {
+      color: white;
+      width: 10rem;
+      height: 5rem;
+    }
+
+    .anonymous {
+      font-size: 4.2rem;
+      text-align: center;
+      margin: 23rem 2.5rem 0 2.5rem;
+      font-family: 'Roboto Slab', serif;
+    }
+
+    .proxy {
+      font-size: 4.2rem;
+      text-align: center;
+      margin-left: 8rem;
+      font-family: 'Roboto Slab', serif;
+    }
+
+    .text-header {
+      font-size: 1.6rem;
+      display: inline;
+      width: 100%;
+      margin: 0 0 0 5rem;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+
+  // Estilos del scroll-down-link
+  .scroll-down-link {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 22px;
+    margin: 2rem 0 0 14rem;
+    align-items: center;
+
+    // Estilos del scroll-down
+    .scroll-down {
+      width: 2rem;
+      height: 1.17rem;
+      margin: 0.5rem 0 0 1.2rem;
+    }
+  }
 }
+
+
 
 /*VERSIÓN TABLET*/
 
