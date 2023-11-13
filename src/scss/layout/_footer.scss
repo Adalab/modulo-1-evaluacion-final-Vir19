@@ -46,3 +46,33 @@
   flex-direction: column;
   gap: 1rem;
 }
+
+/* TABLET */
+
+@media (min-width: 768px) {
+  .footer {
+    width: 76.8rem;
+    height: 24rem;
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .nav {
+    display: flex;
+    gap: 12rem;
+  }
+  .li {
+    text-align: left;
+  }
+  .end-footer {
+    display: flex;
+    align-items: flex-start;
+  }
+  .header-arrow {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15rem;
+  }
+}
