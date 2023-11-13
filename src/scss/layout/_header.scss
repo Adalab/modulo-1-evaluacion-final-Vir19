@@ -1,4 +1,4 @@
-/*.header {
+.header {
   width: 100%;
   height: 56.9rem;
   background-image: url("/images/cover.jpg");
@@ -75,12 +75,12 @@
   width: 2rem;
   height: 1.17rem;
   margin: 0.5rem 0 0 1.2rem; 
-} */
+} 
 
-// Variables
+/*
 $color-background: #0271bc;
 
-// Estilos del header
+
 .header {
   width: 100%;
   height: 56.9rem;
@@ -90,7 +90,6 @@ $color-background: #0271bc;
   background-size: cover;
   background-position: center;
 
-  // Estilos del burger-container
   .burger-container {
     display: flex;
     justify-content: center;
@@ -101,7 +100,6 @@ $color-background: #0271bc;
     height: 4.4rem;
     z-index: 1000;
 
-    // Estilos del burger
     .burger {
       border-radius: 0.2rem;
       width: 1.6rem;
@@ -109,30 +107,27 @@ $color-background: #0271bc;
     }
   }
 
-  // Estilos del header-words
   .header-words {
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
 
-    // Estilos del anonymous, proxy y text-header
     .anonymous, .proxy, .text-header {
       color: white;
       width: 10rem;
       height: 5rem;
     }
-
-    .anonymous {
+      .anonymous {
       font-size: 4.2rem;
       text-align: center;
-      margin: 23rem 2.5rem 0 2.5rem;
+      margin: 23rem 2.5rem 0 4.5rem;
       font-family: 'Roboto Slab', serif;
     }
 
     .proxy {
       font-size: 4.2rem;
       text-align: center;
-      margin-left: 8rem;
+      margin-left: 10rem;
       font-family: 'Roboto Slab', serif;
     }
 
@@ -140,33 +135,72 @@ $color-background: #0271bc;
       font-size: 1.6rem;
       display: inline;
       width: 100%;
-      margin: 0 0 0 5rem;
+      margin: 0 0 0 6.4rem;
       font-family: 'Roboto', sans-serif;
     }
   }
-
-  // Estilos del scroll-down-link
-  .scroll-down-link {
+   .scroll-down-link {
     display: flex;
     position: relative;
     background-color: white;
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 22px;
-    margin: 2rem 0 0 14rem;
+    margin: 2rem 0 0 16rem;
     align-items: center;
 
-    // Estilos del scroll-down
     .scroll-down {
       width: 2rem;
       height: 1.17rem;
       margin: 0.5rem 0 0 1.2rem;
     }
   }
+} */
+
+/*VERSIÓN TABLET*/
+
+@media (min-width: 768px) {
+  .header {
+    width: 76.8rem;
+    height: 76.8rem;
+  }
+  .content-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: baseline;
+    margin: 0 5.5rem 0 0rem;
+    padding-top: 35rem;
+    }  
+  
+  .anonymous-proxy {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 7rem;
+  }
+  .anonymous, .proxy {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header-words {
+    display: flex;
+    gap: 7rem;
+  }
+  .anonymous, .proxy {
+  font-size: 8rem;
+  margin:auto;
+  }
+  .text-header{
+    font-size: 2.4rem;
+    margin:auto;
+  }
 }
 
 
 
-/*VERSIÓN TABLET*/
 
 /*VERSIÓN DESKTOP*/
