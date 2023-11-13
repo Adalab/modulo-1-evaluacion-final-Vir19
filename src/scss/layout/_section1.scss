@@ -44,3 +44,22 @@
     font-family: 'Roboto', sans-serif;
     padding-top: 0.7rem;
 }
+
+/* Tablet */
+
+@media (min-width: 768px) {
+    .section1 {
+        width: 76.8rem;
+        height: 33rem;
+        display: flex;
+        gap: 2rem;
+        padding: 0 6rem 0 2rem;
+    }
+    .paragraph, .go {
+        font-size: 2rem;
+    }
+    .go-link {
+        width: 9.1rem;
+        height: 4.5rem;
+    }
+}
