@@ -48,7 +48,7 @@
     justify-content: space-around;
     width: 18.4rem;
     height: 4.5rem;
-    margin: 3rem 0 0 2rem;
+    margin: 0rem 0 0 2rem;
 }
 .more-reasons {
     font-family: 'Roboto', sans-serif;
@@ -56,7 +56,20 @@
     text-align: center;
     color: white;
 }
+.orange {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 3rem;
+}
 
+
+@media (min-width: 375px) {
+.orange {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+}
+}
 
 
 /* TABLET */
