@@ -11,8 +11,10 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  padding-top: 2rem;
 }
 .arrow-link {
+  display: block;
   width: 4.5rem;
   height: 4.5rem;
   background-color: white;
@@ -39,7 +41,7 @@
   font-family: 'Roboto', sans-serif;
 }
 .ul1, .ul2 {
-  padding-bottom: 3rem;
+  padding-bottom: 3.5rem;
 }
 .ul1, .ul2 {
   display: flex;

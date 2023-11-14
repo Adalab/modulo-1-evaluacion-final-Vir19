@@ -189,34 +189,32 @@ $color-background: #0271bc;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    align-items: baseline;
     margin: 0 5.5rem 0 0rem;
     padding-top: 35rem;
     }  
   
   .anonymous-proxy {
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: baseline;
     gap: 7rem;
+    padding-left: 8.5rem;
+    flex-direction: column;
+    margin-left: 3.5rem;
   }
   .anonymous, .proxy {
     display: flex;
     justify-content: space-around;
+    font-size: 8rem;
+    margin: auto;
   }
   .header-words {
     display: flex;
     gap: 7rem;
   }
-  .anonymous, .proxy {
-  font-size: 8rem;
-  margin:auto;
-  }
+
   .text-header{
     font-size: 2.4rem;
     margin:auto;
+    padding-right: 6rem;
   }
 } 
 
@@ -226,9 +224,8 @@ $color-background: #0271bc;
 @media (min-width: 1024px) {
   .header {
     width: 100%;
-    height: 76.8rem;
+    height: 80rem;
   }
-
   .content-header {
     display: flex;
     flex-wrap: wrap;
@@ -238,7 +235,6 @@ $color-background: #0271bc;
     margin: 0 5.5rem 0 0rem;
     padding-top: 35rem;
   }
-
   .anonymous-proxy {
     display: flex;
     flex-direction: column;
@@ -247,22 +243,29 @@ $color-background: #0271bc;
     align-items: baseline;
     line-height: 13.2rem;
   }
-
   .anonymous, .proxy {
     display: flex;
     justify-content: space-around;
     font-size: 10rem;
     margin: auto;
   }
-
   .header-words {
     display: flex;
     gap: 10rem;
   }
-
   .text-header {
     font-size: 2.4rem;
     margin: auto;
     text-align: center;
   }
 } 
+
+@media (min-width: 1440px) {
+  .anonymous-proxy {
+    display: flex;
+    gap: 10rem;
+  }
+  .content-header {
+    padding: 30rem 0 0 7rem;
+  }
+}
